@@ -5,20 +5,47 @@
     <body>
 
     <!-- Table:to create table -->
-    <!--  -->
-    <tb>
+    <!--tr=>to create a table tree-->
+    <!-- th=>table header. -->
+    <!-- td=>table data. -->
+    <table>
+        <!-- Colgroup=>Group of  columns -->
+        <colgroup>
+            <!-- colis column -->
+            <col span="4" style="background-color:red">
+        </colgroup>
+        <thead>
+        <tbody>
         <tr>
             <th>state</th>
             <th>city</th>
             <th>languages</th>
-
-            <td>Andhra Pradesh</td>
+        </tb>
+        </thead>
+        <tr>
+            <td>AndhraPradesh</td>
             <td>vizag</td>
             <td>Telugu</td>
         </tr>
         <tr>
-             
+            <td>Telangana</td>
+            <td>Hyderabad</td>
+            <td>Telugu</td>
         </tr>
-    </tb>
+        <tr>
+            <td>Maharastra</td>
+            <td>pune</td>
+            <td>Marati</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+        <!-- cover area of4 columns -->
+        <td colspan="4">
+            End of Table
+        </td>
+    </tr>
+    </tfoot>
+        </table>
     </body>
 </html>
