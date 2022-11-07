@@ -1,0 +1,287 @@
+1.How to create an instance of a class?
+Options
+
+Using classes.
+
+Using functions.
+
+Using references.
+
+Using the new keyword.
+
+
+
+2.Pick the correct one:
+Options
+
+A class is a blueprint for creating objects.
+
+A class is a data structure.
+
+An object is structured like an array.
+
+JavaScript is a statically typed language.
+
+
+3.What does this refer to?
+Options
+
+A function.
+
+A class.
+
+An object.
+
+All of the above.
+
+
+
+4.What does the prototype help with?
+Options
+
+Making JavaScript a strongly typed language.
+
+Inheriting object’s properties.
+
+Functional programming.
+
+None of the above.
+
+
+5.Can we use “this” keyword in the child class constructor without using “super” keyword?
+Options
+
+Yes
+
+No
+
+Maybe
+
+Insufficient Information
+
+
+6.What is the implicit return type of constructor?
+Options
+
+No return type
+
+A class object in which it is defined.
+
+void
+
+None
+
+
+
+7.Which of the following is correct about JavaScript?
+Options
+
+JavaScript is an Object-Based language
+
+JavaScript is Assembly-language
+
+JavaScript is an Object-Oriented language
+
+JavaScript is a High-level language
+
+
+
+8.Which is not a feature of OOP in general definitions?
+Options
+
+Efficient Code
+
+Code reusability
+
+Modularity
+
+Duplicate/Redundant data
+
+
+
+9.Which feature of OOP indicates code reusability?
+Options
+
+Abstraction
+
+Polymorphism
+
+Encapsulation
+
+Inheritance
+
+
+10.Which among the following doesn’t come under OOP concept?
+Options
+
+Data hiding
+
+Message passing
+
+Platform independent
+
+Data binding
+
+11.The feature by which one object can interact with another object is _____________
+Options
+
+Message reading
+
+Message Passing
+
+Data transfer
+
+Data Binding
+
+
+12.Which among the following, for a pure OOP language, is true?
+Options
+
+The language should follow at least 1 feature of OOP
+
+The language must follow only 3 features of OOP
+
+The language must follow all the rules of OOP
+
+The language should follow 3 or more features of OOP
+
+
+13.What is encapsulation in OOP?
+Options
+
+It is a way of combining various data members and member functions that operate on those data members into a single unit
+
+It is a way of combining various data members and member functions into a single unit which can operate on any data
+
+It is a way of combining various data members into a single unit
+
+It is a way of combining various member functions into a single unit
+
+
+14.What is an abstraction in object-oriented programming?
+Options
+
+Hiding the implementation and showing only the features
+
+Hiding the important data
+
+Hiding the implementation
+
+Showing the important data
+
+
+15.The first thing to enter in the Call Stack is _________.
+Options
+
+Local Execution Context
+
+Micro task Queue
+
+Callback Queue
+
+Global execution context.
+
+
+16.clearInterval() clears the time interval in the setInterval().
+Options
+
+TRUE
+
+FALSE
+
+Maybe
+
+Insufficient Information
+
+
+
+17.Timing events in JS are part of ___________.
+Options
+
+Web API
+
+Timer API
+
+Window/Global Object
+
+None of the above
+
+18.Call Stack works in a ________ manner.
+Options
+
+Based on priority
+
+First In First Out
+
+Last in First Out
+
+None of the above.
+
+19.Which of the following method is used to get value from generator-iterator objects in JavaScript?
+Options
+
+next
+
+yield
+
+done
+
+stop
+
+
+20.Promise.all is rejected if any of the elements are rejected.
+Options
+
+TRUE
+
+FALSE
+
+Maybe
+
+Insufficient Information
+
+21.What is the state of a successful promise operation?
+Options
+
+Fulfilled
+
+Unfulfilled
+
+Rejected
+
+Success
+
+22.How to access the second element of the array arr = [3, 7, 10]?
+Options
+
+arr.indexOf(2)
+
+arr.indexOf(1)
+
+arr[2]
+
+arr[1]
+
+
+23.What does the following code log? [10, 50, 88].filter(function(n) { return n > 10; });
+Options
+
+FALSE
+
+[10]
+
+[50, 88]
+
+[10, 55, 88]
+
+
+24.What does the following code log? [10, 50, 88].filter(function(n) { return n > 10; });
+Options
+
+FALSE
+
+[10]
+
+[50, 88]
+
+[10, 55, 88]

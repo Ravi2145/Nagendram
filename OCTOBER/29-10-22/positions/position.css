@@ -40,14 +40,14 @@ div{
 .thirdDiv{
     position: fixed;
     top: 10px;
-    left: 10px;
+    right: 10px;
 
 }
 .forthDiv{
     /* it is relative to its non-static ancestor or viewport. */
     position: absolute;
     top: 10px;
-    left: 10px;
+    right: 10px;
 }
 .fifthDiv{
     /* non relative */
