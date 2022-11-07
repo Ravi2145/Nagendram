@@ -58,3 +58,23 @@ if(sparseArray(array1,4,4)){
 }else{
     console.log(false);
 }
+
+
+
+function sparse(arr,m,n){
+    m=arr.length;
+    n=arr[0].length
+let count = 0
+    for(let i=0;i<m;i++){
+        for(let j=0;j<n;j++){
+            if(arr[i][j]==0){
+                count++
+            }
+        }
+    }
+    return (count>parseInt((m*n)/2));
+}
+let arr = [[0,1,0],
+           [3,0,5],
+           [9,2,0]]
+    console.log(sparse(arr));

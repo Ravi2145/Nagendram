@@ -74,5 +74,23 @@ greetMe.call(people[1],["english ","england"])
 // 9.the difference between the height of the left subtree to the height of the right subtree
 // of every node is at most one for which of the following ? ans:AVL tree
 
+// which of the following disk-scheduling algorithms can be considered as the
+// default algorithm,given their advantages disadvantages are bearable compared
+// to all other algorithms?.
 
 // 10.which of the following is a charter of border gateway protocol
+
+
+// Which of the following is a process of removing the currently running program from memory and bringing in another program into the memory?
+
+
+// Which of the following disk-scheduling algorithms can be considered as the default algorithm, given their advantages and disadvantages are bearable compared to all other algorithms?
+
+
+// The difference between the height of the left subtree to the height of the right subtree of every node is at most one for which of the following?
+
+
+// Which of the following methods could be used to attach it with the object and returns attached method that could be invoked anytime in future?
+
+
+// which of the following will be descibes the below of RARP?

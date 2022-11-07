@@ -8,7 +8,7 @@ function reversePyramid(num){
         //2. print nums
         for(let k=i;k<num;k++){
             revpy +=k+" ";
-           // revpy +=j.toString();
+           //revpy +=j.toString();
         }
         
         console.log(revpy);
@@ -16,3 +16,10 @@ function reversePyramid(num){
    
 }
 reversePyramid(9);
+
+
+
+
+
+
+

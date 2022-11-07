@@ -8,6 +8,8 @@ const A=[
     [4,4,4]
 ];
 var col_sum = A.reduce((A,B)=>A.map((x,idx)=>x+B[idx]));
-console.log(col_sum);0
+console.log(col_sum);
+
+
 
 

@@ -42,8 +42,9 @@ function findSingleDigitSum(num){
 findSingleDigitSum(12345);
 
 
-
-
 // const num = "1234";
 // console.log()
+
+
+
 

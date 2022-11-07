@@ -3,7 +3,22 @@
 <html>
 
 <!-- to provide information about application includes external resources(js,css). -->
-    <head>
+    <!-- Internal css. -->
+    <link rel="stylesheet" href="signup.css">
+    <!-- <style>
+        /* where to apply this css , fr which element. */
+        /* 1.ID selector. */
+        /* it will apply to a single element. */
+        #signUpHeader{
+            font-size: 70px;
+            color:blue;
+        }
+        /* 2. TagName Selector.*/
+        /* apply to all label elements*/
+    </style> -->
+
+
+<head>
         <title>
 
         </title>
@@ -11,9 +26,10 @@
 
     <!-- Includes your visible part of web page. -->
     <body>
+        <div class="container">
         <!-- h1[Largest], h2, h3, h4, h5, h6[Smallest]-->
-        <h1>Please Sign up!!</h1>
-        <h4>It's quick and easy</h4>
+        <h2 id="signUpHeader" style="color:red";>Please Sign up!!</h2>
+        <h4 id="header4" class="h4-header">It's quick and easy</h4>
 
         <!-- create form and controls inside form. -->
         <!-- A container contains from controls. -->
@@ -23,43 +39,37 @@
             <!-- Attribute =>[name = "value"] -->
             <label for = "fname">Enter First Name</label>
             <input type="text" name="fname" placeholder="Enter Your First Name"/>
-            <br><br>
+            
             <label for = "fname">Enter Last Name</label>
             <input type="text" name="fname" placeholder="Enter Your Last Name"/>
-            <br />
-            <br />
             <label for="email">Enter email</label>
             <input type="email" name = "enter" placeholder="Enter Your email">
-            <br><br>
+            
             <label for="password">Enter Password</label>
             <input type="password" name="Password" placeholder="Enter Your Password">
-            <br>
-            <br/>
+            
             <label for="dob">Enter Date of Birth</label>
             <input type="date" name="dob">
-            <br />
-            <br/>
+            
             <label for="mobile">Enter Mobile Number</label>
             <input type="text">
             <input type="number" name="mobile" >
-            <br />
-            <br />
+            
             <label for="gender">please select gender::</label>
-            <input type="radio" name="gender">
-            <label for="gender">male</label>
-            <input type="radio" name="gender">
-            <label for="gender">female</label>
-            <input type="radio" name="gender">
-            <label for="gender">others</label>
-            <br><br>
+            <input class="input-radio" type="radio" name="gender">
+            <label class="label-radio" for="gender">male</label>
+            <input class="input-radio" type="radio" name="gender">
+            <label class="label-radio" for="gender">female</label>
+            <input class="input-radio" type="radio" name="gender">
+            <label class="label-radio" for="gender">others</label>
+            
             <!-- textarea:multiline text -->
             <label for="address"></label>
             <textarea name="address" placeholder="your address" id="" cols="30" rows="4"></textarea>
-            <br><br>
+            
             <label for="pincode">pincode</label>
             <input type="text" name="pincode">
-            <br>
-            <br>
+            
             <label for="city">Select City</label>
             <select name="city">
                 <option value="-1">Select city</option>
@@ -69,18 +79,19 @@
                 <option value="3">pune</option>
                 <option value="4">hyderabad</option>
             </select>
-            <br>
+           
             <input type="checkbox" name="terms and conditions">
             <label for="terms and conditons">Terms & conditions</label>
-            <br>
+           
 
             <!-- Buttons -->
-            <br />
+            
             <!-- <input type="submit" name="sign up"> -->
             <!-- <input type="button" name="save" value="sign up"> -->
             <button type="reset">clear</button>
 
         </form>
+    </div>
     </body>
 </html>
 

@@ -64,3 +64,35 @@ canArrayBeSorted([1,2,5,4,3,7])//true
 
 
 
+function canArrayBeSorted1(arr){
+    if(arr.length==1){
+        return true;
+    }
+    let stIdx;
+    for(let i=0;i<=arr.length;i++){
+        if(arr[i]>arr[i+1]){
+            stIdx=i
+        break;
+        }
+    }
+    let endIdx;
+    for(let i=stIdx;i<arr.length;i++){
+        if(arr[i]<arr[i+1] || i==arr.length-1){
+            endIdx=i
+            break;
+        }
+    }
+    let decArr = [];
+    let j=0;
+    for(let i=stIdx;i<=endIdx;i++){
+        decArr[j] = arr[i];
+        j++
+    }
+    for(let i=decArr.length-1;i>=0;i--){
+        arr[stIdx]=decArr[i];
+        stIdx++;
+    }
+   console.log("main array afetr reversing ",arr)
+}
+let arr = [1,2,3,7,6,5,4]
+console.log(canArrayBeSorted1(arr));

@@ -6,23 +6,13 @@ D = ∑A[i] − (N − 1) ∗ A[N ]
 
 i=1
 
-
-
 In one operation you can chose to index X and Y (1<=X, Y<=N) such that X is not equal to Y, and increase A[X] by 1 and decrease A[Y] by 1.
-
-
 
 Find the minimum absolute value of D that you can obtain after performing the operation several times (possibly zero).
 
-
-
 You are given T independent test cases.
 
-
-
 Constraints
-
-
 
 • 1 <= T <= 102
 
@@ -32,11 +22,7 @@ Constraints
 
 • All input values are integers.
 
-
-
 Input Format
-
-
 
 • First-line contains T.
 

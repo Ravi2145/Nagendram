@@ -1,0 +1,46 @@
+Question Name: Peaceful children
+
+Problem Statement
+
+Consider N children standing in a line. The ith child in the line has a toy with goodness Gi.
+
+Child i and Child j are considered enemies of each other if Gi+Gj is a power of 2.
+
+Peaceful children are the ones who do not have any enemies.
+
+Given an array G of length N, print the number of peaceful children standing in the line.
+
+Input Format
+
+First line of input contains a single integer denoting N.
+Next line contains N space-separated integers denoting the goodness of the toys.
+Output Format
+
+Print the number of peaceful children standing in the line.
+Constraints
+
+1<=N<=10^5
+1<=Gi<=10^9
+Sample Input 1
+
+5
+
+5 1 2 4 3
+
+Sample Output 1
+
+2
+
+Explanation of Sample 1
+
+Enemies of child 1 are: child 5
+
+Enemies of child 2 are: child 5
+
+Enemies of child 3 are: no enemies
+
+Enemies of child 4 are: no enemies
+
+Enemies of child 5 are: child 1, child 2
+
+Hence peaceful children are: child 3 and child 4

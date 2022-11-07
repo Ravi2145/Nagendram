@@ -1,12 +1,13 @@
 
 function subsequenceLength(array){
+	
 	if(arr.length == 0){
 		return 0;
 	}
-	var len = 1;
+	var len = 0;
 	var maxlen = 1;
 	for(let i=0;i<array.length;i++){
-		if(array[i-1]<array[i]){
+		if(array[i]<array[i+1]){
 			len++;
 		}else{
 			len = 1;
@@ -15,7 +16,7 @@ function subsequenceLength(array){
 	}
 	return maxlen;
 }
-let arr = [1,2,5,4,3];
+let arr = [1,2,5,4];
 console.log(subsequenceLength(arr))
 
 

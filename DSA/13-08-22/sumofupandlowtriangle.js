@@ -35,3 +35,7 @@ const mat=[
     [7,8,9]
 ];
 sumofUpandLowTriangle(mat,3,3)
+
+
+
+

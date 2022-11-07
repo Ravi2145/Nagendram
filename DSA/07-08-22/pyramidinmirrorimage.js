@@ -13,7 +13,7 @@ function reversePyramidAndPyramid(n){
     }
     console.log(patt);
     
-     for(i=1;i<=n-1;i++){
+     for(i=1;i<=n;i++){
        let patt=""
         for(j=1;j<=n-i;j++){
               patt+=" ";

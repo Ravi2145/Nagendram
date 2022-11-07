@@ -3,7 +3,8 @@
 // in sorted order
  
 // Function to merge array in sorted order
-function sortedMerge(a, b, res,n, m){
+function sortedMerge(a, b,res,n, m){
+  
 // Sorting a[] and b[]
     a.sort((a,b) => a-b);
     b.sort((a,b) => a-b);
@@ -33,6 +34,7 @@ while (j < m) { // Merging remaining
         j += 1;
         k += 1;
     }
+    
 }
 
 // Driver code
@@ -45,7 +47,7 @@ let m = b.length;
 // Final merge list
 let res = new Array(n + m);
 
-sortedMerge(a, b, res, n, m);
+sortedMerge(a, b,res,n, m);
 
 console.log("Sorted merge list :");
 for (let i = 0; i < n + m; i++)
@@ -71,3 +73,13 @@ arr1.sort((a1,b1)=>a1-b1);
 console.log(arr1);
 
 
+
+
+// let merge = (a,b,res,n,m)=>{
+//     a.
+
+// }
+
+// let a = [17,5,4,2,3,8]
+// let b = [10,20,30]
+// merge(a,b,)

@@ -19,3 +19,22 @@ const arr = [
 findIndexNumberIn2Darr(arr,"portal");
 findIndexNumberIn2Darr(arr,"data");
 findIndexNumberIn2Darr(arr,"gfg");
+
+
+
+
+function findIndexNumberIn2Darr1(nums,target){
+    let res = [];
+    for(let i=0;i<nums.length;i++){
+        for(j=0;j<nums[i].length;j++){
+            if(target===nums[i][j]){
+                res.push(i,j);
+            }
+        }
+    }
+    return res;
+}
+let nums=[[1,2,3],
+         [4,3,2],
+         [5,6,7]];
+console.log(findIndexNumberIn2Darr1(nums,3));

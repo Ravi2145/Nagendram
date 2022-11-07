@@ -9,7 +9,7 @@ function printSpiralMatrix(matrix){
 
     while(startrow<endrow && startcol<endcol){
         
-    //1. 1st loop from1st row 1st column to 1st row last col.
+    //1. 1st loop from 1st row 1st column to 1st row last col.
     for(let i=startcol;i<=endcol;i++){
         console.log(matrix[startrow][i]);
 
@@ -38,5 +38,7 @@ const matrix = [
     [13,14,15,16]
 ];
 printSpiralMatrix(matrix);
+
+
 
 

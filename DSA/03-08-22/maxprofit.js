@@ -65,3 +65,51 @@ findMaxProfit([100,180,260,310,40,535,695])
 // }
 // var val=(100,180,260,310,40,535,695);
 // console.log(maxProfit(val));
+
+
+
+
+function maxProfit(arr){
+    let mPr=0;
+    let sp = 0;
+    let bp = 0;
+    let changebp = true;
+
+    for(let i=0;i<arr.length-1;i++){
+        sp = arr[i+1]
+        if(changebp){
+            bp = arr[i]
+        }
+        if(sp<bp){
+            changebp = true;
+            continue;
+
+        }else{
+            let profit = sp-bp
+            if(profit>mPr){
+                mPr = profit;
+            }
+            changebp = false;
+        }
+    }
+    console.log(mPr);
+}
+maxProfit([100,80,203,243,465,789]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

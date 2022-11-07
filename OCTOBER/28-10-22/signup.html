@@ -1,0 +1,96 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" href="signup.css">
+
+        <!-- Internal css -->
+        <style>
+            /* where to apply to this css,for which element? */
+            /* 1.ID Selector. */
+            /* It will apply to a single element. */
+            #signupHeader{
+                font-size: 200px;
+                color: blue;
+
+            }
+            /* 2.tagName Selector */
+            /* Apply to all label elements */
+            label{
+                background-color: yellow;
+            }
+            #header4{
+                background-color: aqua;
+            }
+            .h4-header{
+                background-color: brown;
+            }
+        </style>
+
+    </head>
+    <body>
+        <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" alt="Google Office">
+            <h2 id="signupHeader" style="color:red;">Please SignUp!!</h2>
+            <h4 id="header4" class="h4-header">It's quick and easy</h4>
+     
+            <!-- create form and controls inside form -->
+            <!-- A container contains form controls  -->
+            <form>
+
+                <!-- self closeing tags -->
+                <!-- Attribute=>[name = "value"] -->
+                <label for="fname">Enter First Name</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <label>Enter Last Name</label>
+                <br>
+                <input type="text" name="fname" value="John" placeholder="Enter Your FirstName">
+                <input type="text" name="lname" value="Doe" placeholder="Enter Your LastName">
+                <br>
+                <label for="email">Enter Email</label>
+                <br>
+                <input type="text" name="email" placeholder="Enter Your Email">
+                <br>
+                <label for="phnoe">Enter Phone Number</label>
+                <br>
+                <input type="text">
+                <br>
+                <input type="text" name="phone" placeholder="Enter Your Phone Number">
+                <br>
+                <label for="dob">Enetr Date Of Birth</label>
+                <br>
+                <input type="date" name="dob" placeholder="date of birth">
+                <br>
+                <label for="gender">Please Select Your Gender: </label>
+                <br>
+                <input type="radio" name="male" id="">
+                <label for="gender">male</label>
+                <input type="radio" name="female">
+                <label for="gender">female</label>
+                <input type="radio" name="others">
+                <label for="gender">others</label>
+                <br>
+                <label for="Address">Enetr Your Address</label>
+                <br>
+                <textarea name="Address" id="" cols="30" rows="4"></textarea>
+                <br>
+                <label for="pincode">Enetr PinCode</label>
+                <br>
+                <input type="text"name="pincode">
+                <br>
+                <label name="city" id="">Select City Name</label>
+                <select name="city" id="" placeholder="select">
+                    <option value="0">mumbai</option>
+                    <option value="1">Vizag</option>
+                    <option value="2">Chennai</option>
+                    <option value="3">banglore</option>
+                    <option value="4">pune</option>
+                </select>
+                <br>
+                <input type="checkbox" name="t&c">
+                <label for="t&c">Terms and Conditions</label>
+                <!-- bottons -->
+                <br>
+                <!-- <input type="submit" value="Sign Up"> -->
+                <!-- <input type="button" name="save" value="Sign Up"> -->
+                <button class="bg-green">submit</button>
+            </form>
+    </body>
+</html>

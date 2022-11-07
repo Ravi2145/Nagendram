@@ -56,18 +56,21 @@ let movezeros = (arr)=>{
     let right = 0;
     let swap
     while(right<n){
-        if(arr[right]!==0){
-            ++right;
+        if(arr[right]==0){
+            right++;
         }
         else{
-            swap = arr[right];
-            arr[right] = arr[left];
-            arr[left] = swap;
-            ++right
-            ++left
+            swap = arr[left];
+            arr[left] = arr[right];
+            arr[right] = swap;
+            right++;
+            left++;
         }
     }
     return arr;
 }
 const arrr= [0,1,1,0,3,0,5,0]
 console.log(movezeros(arrr));
+
+
+

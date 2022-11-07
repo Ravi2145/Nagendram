@@ -25,3 +25,16 @@ function reverseArray(array){
 
 // const reverseArray=[1,2,3,4,5];
 // console.log(reverseArray.unshift())
+
+
+
+
+let reverse = (arr)=>{
+  let result = [];
+  for(let i=arr.length-1;i>=0;i--){
+    result.push(arr[i]);
+    //result += arr[i];
+  }
+  return result;
+}
+console.log(reverse([6,7,8,9,0]))

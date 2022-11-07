@@ -1,0 +1,21 @@
+position 
+Default->the way elements are addedin code is the way they wiil appear on page.
+default position=>static pisition
+
+position .
+   =>top,bottom,right,left.
+
+
+   2.types
+   1.static->static/Default.
+   2.Relative->Relative,Absolute,Fixed.
+
+
+   Responsive Designs.
+
+   1.Media Query.
+   2.Break Points.
+
+   An Obvious Solution.
+      1.To write alternative css for mobile device. -media query.
+      2.A technique to apply this css when screen is mobile size.-breakpoints.

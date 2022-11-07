@@ -1,0 +1,83 @@
+body{
+    /* vh->viewport height. */
+    height: 100vh;
+    margin: 0;
+   
+   
+}
+.row{
+    background-color: black;
+    height: 100%;
+}
+.center{
+    border:1px solid rgb(34, 33, 33);
+    border-right: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    padding:0px;
+}
+.left-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:24px 20px 0;
+    padding:35px ;
+}
+img{
+    /* background-color: black; */
+height: 28px;
+width: 28px;
+color: white;
+margin-bottom: 20px;
+}
+.left-menu{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.symbol-hash{
+    height:28px;
+}
+.icon-gear{
+    height: 18px;
+}
+.search-wrapper{
+    padding: 5px 18px;
+    margin-top: 6px;
+    background-color: rgb(61, 58, 58);
+    border-radius: 24px;
+    display: flex;
+    width:90%;
+    height:fit-content;
+}
+.search-bar{
+    padding: 4px 12px ;
+    height: inherit;
+    background-color: inherit;
+    outline: none;
+    color: white;
+    border: none;
+    height: 42px;
+    width:100%;
+    display: flex;
+   
+}
+.search-icon{
+    margin:9px 0px 0px 10px;
+    color:white;
+
+}
+.icon-gear1{
+    margin-left:24px;
+    color: white;
+    
+}
+/* .twitter-banner{
+    display: flex;
+    justify-content: center;
+   
+    /* width: 100%; */
+/* } */
+/* .img-banner{
+
+} */ 
