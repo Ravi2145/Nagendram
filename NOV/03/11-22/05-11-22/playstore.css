@@ -221,7 +221,7 @@ margin-top: 47px;
 .last-footer{
     /* margin-left: 200px;
     margin-right: 200px; */
-    height: 550px;
+    height:580px;
     width: 100%;
     background-color: rgb(25, 25, 150);
     color: white;
@@ -258,6 +258,55 @@ margin-top: 47px;
 .col-2{
     margin-left: 14px;
     line-height: 1.0;
+    margin-top: 60px;
+    font-size: small;
+}
+.img-sony{
+    height:70px;
+    width: 140px;
+    /* margin-left: 200px; */
+    margin-bottom: 0px;
+    padding: 0px;
+    
+}
+.sony-img-p{
+    margin-left: 200px;
+    line-height: 1.5;
+}
+.sony-img-text{
+    /* margin-left: 200px; */
+    height: 120px;
+    width: 431px;
+    margin-top:0px;
+    padding: 0px;
+    
+    
+}
+.ps-explore{
+    background-color: rgb(243, 201, 124);
+    height: 350px;
+    width: 100%;
+    
+}
+.row{
+    margin-top: 45px;
+    margin-left: 200px;
+}
+.center{
+    margin-left: 200px;
+    width: 50px;
+}
+.img-explore{
+    height: 100px;
+    width: 100px;
+}
+.img-explore1{
+    height: 200px;
+    width: 250px;
+}
+.explore-text-img{
+    width: 110px;
+
 }
 body{
     margin:0;

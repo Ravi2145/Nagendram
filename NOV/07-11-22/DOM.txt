@@ -1,0 +1,11 @@
+App Steps:
+
+1.Create form. - Done.
+2.Read text box data in click on button.
+3.add todo text and button(edit ,delete)to todo list.
+4.On click of edit.
+        4.1 convert text into text box.
+        4.2on click of edit again , update the text in list
+
+How to handle form submit event ?
+
