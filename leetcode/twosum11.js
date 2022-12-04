@@ -12,5 +12,8 @@ let twoSum11 = (numbers,target)=>{
         }
     }
 }
-let nums = [2,7,11,15];
+let nums = [7,2,11];
 console.log(twoSum11(nums,9));
+
+
+

@@ -1,0 +1,109 @@
+body{
+    max-height: 100vh;
+    /* width: 400px; */
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.274);
+}
+.container{
+    margin-top: 68px;
+   justify-content: center;
+   background-color: rgb(91, 47, 133);
+   width: 400px;
+   box-shadow: 0 5px 10px rgb(31, 30, 30);
+   cursor: pointer;
+   background-image: url(images.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+  
+
+}
+.form h2{
+    color: white;
+    font-style:oblique;
+}
+.form-controls{
+    margin-top: 16px;
+}
+.form-controls input{
+    width: 100%;
+    margin-bottom: 9px;
+}
+.form-controls label{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+.submit-btn{
+    border: none;
+    background-color: green;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.button-submit{
+    background-color: green;
+    color: white;
+    border: none;
+   
+}
+.clear-btn{
+    border: none;
+    background-color: green;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 213px;
+
+}
+.button-clear{
+    background-color: green;
+    color: white;
+    border: none;
+
+}
+@media screen and (max-width:100px)
+{
+    .form-controls input{
+        width: 25%;
+        margin-bottom: 4px;
+    }
+    .form-controls label{
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .submit-btn{
+        border: none;
+        background-color: green;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .clear-btn{
+        border: none;
+        background-color: green;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 80px;
+    
+    }
+    .form-controls{
+        margin-top: 16px;
+    }
+    .container{
+        margin-top: 68px;
+       justify-content: center;
+       background-color: rgb(91, 47, 133);
+       width: 200px;
+       box-shadow: 0 5px 10px rgb(31, 30, 30);
+       cursor: pointer;
+    
+    }
+    .button-clear{
+        background-color: green;
+        color: white;
+        border: none;
+    
+    }
+}

@@ -16,3 +16,6 @@ let checkarmstrongornot = (num,res)=>{
 }
 checkarmstrongornot(153,0);
 checkarmstrongornot(123.0);
+
+
+

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Playstore.com</title>
-    <link rel="stylesheet" href="playstore.css">
+    <title>Playstation.com</title>
+    <link rel="stylesheet" href="playstation.css">
     <!-- CSS only -->
     
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
@@ -109,28 +109,60 @@ integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbs
           </svg>
       </nav>
       <!-- Carousels -->
-      <div class="backgroung-cover">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="https://gmedia.playstation.com/is/image/SIEPDC/MWII-Homepage-Hero-Desktop-en-01-25oct22?$1600px$"  alt="First slide">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active carousel-cover">
+            <img src="imgs/408914_635bead6f2b7c.webp" class="d-block w-100 carousel-img" alt="Wild Landscape"/>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="https://gmedia.playstation.com/is/image/SIEPDC/god-of-war-ragnarok-keyart-01-en-07sep21?$1200px$" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="https://gmedia.playstation.com/is/image/SIEPDC/olli-olli-world-finding-the-flowzone-keyart-01-en-05oct22?$1200px$" alt="Third slide">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
           </div>
+          <div class="carousel-item">
+            <img src="imgs/God_of_War_Ragnarök_cover.jpg" class="d-block w-100" alt="Camera"/>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/Genshin-Impact-3.2-release-date,-3.2-Banner-and-event-details-cover.jpg" class="d-block w-100" alt="Exotic Fruits"/>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
 
         <div class="images">
@@ -144,7 +176,7 @@ integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbs
         </div>
         <div>
         <div class="text-contet">
-          <div class="row">
+          <div class="row playstation5">
             <div class="col">
             <h3 class="text">PlayStation 5 <br>
               Console</h3>
@@ -160,116 +192,170 @@ integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbs
         </div> 
 
         
-        <!-- <div class="horiz-cards">
-          <div class="row">
-            <div class="col-12">
-              
-                <div class="card" style="width: 18rem;">
-                  <img class="card-img-top1" src="https://gmedia.playstation.com/is/image/SIEPDC/playstation-5-horizontal-product-shot-01-ps5-en-23nov20?$1200px--t$" alt="Card image cap">
-                
-                  <div class="card-body">
-                    <p class="card-text">PS5 Console</p>
-                  </div>
-                </div>
-             
-             
-                <div class="card" style="width:18rem;">
-                  <img class="card-img-top" src="https://gmedia.playstation.com/is/image/SIEPDC/dualsense-collection-image-block-01-en-01sep22?$1200px$" alt="Card image cap">
-                
-                  <div class="card-body">
-                    <p class="card-text">DualSense™ Wireless Controller</p>
-                  </div>
-                </div>
-         
-                <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="https://gmedia.playstation.com/is/image/SIEPDC/3d-pulse-headset-range-image-block-03-en-13sep22?$1200px$" alt="Card image cap">
-                  <div class="card-body">
-                    <p class="card-text">PULSE 3D™ Wireless Headset</p>
-                  </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="https://gmedia.playstation.com/is/image/SIEPDC/DualSense-Edge-image-block-01-en-24aug22?$1200px$" alt="Card image cap">
-                  <div class="card-body">
-                    <p class="card-text">DualSense Edge</p>
-                  </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="https://gmedia.playstation.com/is/image/SIEPDC/Media-Remote-square-image-block-ps5-01-en-09oct20?$1200px--t$" alt="Card image cap">
-                  <div class="card-body">
-                    <p class="card-text">Media Remote</p>
-                  </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="https://gmedia.playstation.com/is/image/SIEPDC/hd-camera-square-image-block-ps5-01-en-07dec20?$1200px$" alt="Card image cap">
-                  <div class="card-body">
-                    <p class="card-text">HD Camera</p>
-                  </div>
-                </div>
-            
-              </div>
-            </div>
-          </div>
-        </div>
-      -->
+        
         
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>         
           
         <div class="card-with-text">
-          <div class="row">
-            <div class="col-12">
-              <div>
-                <img class="image" style="width: 4.5rem;" src="https://gmedia.playstation.com/is/image/SIEPDC/playstation-5-horizontal-product-shot-01-ps5-en-23nov20?$1200px--t$" alt="">
+          <div class="row row-imgs">
+            <!-- <div class="col-12"> -->
+              <div class="col col-images-text">
+              
+                <img class="image" src="https://gmedia.playstation.com/is/image/SIEPDC/playstation-5-horizontal-product-shot-01-ps5-en-23nov20?$1200px--t$" alt="">
+
+             
                 <p class="img-text">PS5 Console</p>
+              
               </div>
-              <div>
-                <img class="image" style="width: 6.9rem;" src="https://gmedia.playstation.com/is/image/SIEPDC/dualsense-collection-image-block-01-en-01sep22?$1200px$" alt="">
+              <div class="col col-images-text">
+                <img class="image" src="https://gmedia.playstation.com/is/image/SIEPDC/dualsense-collection-image-block-01-en-01sep22?$1200px$" alt="">
                 <p class="img-text">DualSense™ Wireless Controller</p>
               </div>
-              <div>
-                <img class="image" style="width: 6.6rem;" src="https://gmedia.playstation.com/is/image/SIEPDC/3d-pulse-headset-range-image-block-03-en-13sep22?$1200px$" alt="">
+              <div class="col col-images-text">
+                
+                <img class="image" src="https://gmedia.playstation.com/is/image/SIEPDC/3d-pulse-headset-range-image-block-03-en-13sep22?$1200px$" alt="">
                 <p class="img-text">PULSE 3D™ Wireless Headset</p>
               </div>
-              <div>
-                <img class="image" style="width: 6.5rem;" src="https://gmedia.playstation.com/is/image/SIEPDC/DualSense-Edge-image-block-01-en-24aug22?$1200px$" alt="">
+              <div class="col col-images-text">
+                <img class="image" src="https://gmedia.playstation.com/is/image/SIEPDC/DualSense-Edge-image-block-01-en-24aug22?$1200px$" alt="">
                 <p class="img-text">DualSense Edge</p>
               </div>
-              <div>
-                <img class="image" style="width: 5.4rem;" src="https://gmedia.playstation.com/is/image/SIEPDC/Media-Remote-square-image-block-ps5-01-en-09oct20?$1200px--t$" alt="">
+              <div class="col col-images-text">
+                <img class="image"  src="https://gmedia.playstation.com/is/image/SIEPDC/Media-Remote-square-image-block-ps5-01-en-09oct20?$1200px--t$" alt="">
                 <p class="img-text">Media Remote</p>
               </div>
-              <div>
-                <img class="image" style="width: 4.5rem;" src="https://gmedia.playstation.com/is/image/SIEPDC/hd-camera-square-image-block-ps5-01-en-07dec20?$1200px$" alt="">
+              <div class="col col-images-text">
+                <img class="image" src="https://gmedia.playstation.com/is/image/SIEPDC/hd-camera-square-image-block-ps5-01-en-07dec20?$1200px$" alt="">
                 <p class="img-text">HD Camera</p>
               </div>
               
               
-            </div>
+            <!-- </div> -->
           </div>
 
         </div>
         
         <div class="ps-explore">
-          <div class="row explore">
+          <div class="row explore" style="display:flex;">
             <div class="col-6  center">
               <span class="explore-text-img">
                 <img class="img-explore" src="https://gmedia.playstation.com/is/image/SIEPDC/ps-plus-black-badge@2x?$1200px--t$" alt="">
-                <h1>PlayStation.<span>Plus</span></h1>
-                <p>Enhance your PlayStation experience with access to online multiplayer, monthly games, exclusive discounts and more.</p>
+               
+                <p class="explore-text">Enhance your PlayStation experience with access to online multiplayer, monthly games, exclusive discounts and more.</p>
               </span>
+              <button class="explore-button">Explore PlayStation Plus</button>
             </div>
-            <div class="col-6">
+            <div class="col-6 center1">
               <img class="img-explore1" src="https://gmedia.playstation.com/is/image/SIEPDC/ps-plus-monthly-games-featured-image-block-01-25oct22$en?$1600px--t$" alt="">
             </div>
           </div>
         </div>
 
-        
-        
+        <div class="monthly-new-releases">
+            <div class="monthly-release">
+              <div class="row content-of-monthly-release">
+                <h1><span class="this-month">THIS MONTH</span></h1>
+                <h1>ON PLAYSTATION</h1>
+                <P class="font-size">Check out this month's biggest releases along with dedicated features,guides and more</P>
+              <button class="button-findmore">Find out more</button>
+            </div>
+          <div class="row content-of-monthly-release">
+            <div class="col monthly-release-img-text">
+              <img class="release-cover-imgs-style" src="https://gmedia.playstation.com/is/image/SIEPDC/battle-royal-editorial-keyart-01-en-17may22?$1600px$" alt="">
+              <p class="new-img-text">The best battle royale games on PS4 and PS5</p>
+            </div>
+            <div class="col monthly-release-img-text">
+              <img class="release-cover-imgs-style" src="https://gmedia.playstation.com/is/image/SIEPDC/ps-plus-extra-hidden-gems-hero-page-banner-keyart-01-en-28jul22?$1600px$" alt="">
+              <p class="new-img-text">20 unmissable hidden gems on PS Plus Extra</p>
+            </div>
+            <div class="col monthly-release-img-text">
+              <img class="release-cover-imgs-style" src="https://gmedia.playstation.com/is/image/SIEPDC/1980s-classic-arcade-games-keyart-01-en-06jul22?$1600px$" alt="">
+              <p class="new-img-text">Rediscover classic arcade games on PS4 and PS5</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <style>
+        .available-games-in-ps{
+          background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/the-last-of-us-part-i-hero-banner-desktop-01-ps5-en-11aug22?$1200px$);
+          background-repeat: no-repeat;
+          /* background-attachment: fixed; */
+          background-size: cover;
+          height: 690px;
+          width: 100%;
+          padding-top: 320px;
+          padding-left:159px;
           
+        }
+      </style>
+      <div class="available-games-in-ps">
+        
+          <h1 class="available-games-h1-tag">THE LAST OF US <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PART I</h1>
+          <h6 class="available-games-h6-tag">Available now</h6>
+          <p class="available-games-p-tag">Relieve the beloved game that started it all-rebuilt for PS5</p>
+          <button class="available-games-button">Buy now</button>
+       
+      </div>
 
+          <div class="expl-ps-4">
+            <div class="expl-ps4-content">
+              <h1 class="expl-ps4-content-h1text">Explore PlayStation®4</h1>
+              <p class="expl-ps4-content-ptext">Incredible games, non-stop entertainment. There's never been <br> a better time to enjoy PS4.</p>
+            </div class="row-and-column">
+            <div class="row expl-ps-4-row">
+              <div class="col expl-ps-4-columns">
+                <div class="expl-ps-4-imgs-text">
+                    <img class="expl-ps-4-img" src="https://gmedia.playstation.com/is/image/SIEPDC/ps4-slim-homepage-image-block-04-en-09oct20?$1200px$" alt="">
+                    <h1 class="expl-ps4-img-h1text">PlayStation 4</h1>
+                    <p class="expl-ps4-img-content">Incredible games live
+                      on PS4,with 1TB storage.
+                    </p>
+                    <button class="btn btn-primary" style="border-radius:24px;">Learn more</button>
+                  </div>
+                </div>
+                <div class="col expl-ps-4-columns">
+                  <div class="expl-ps-4-imgs-text">
+                    <img class="expl-ps-4-img" src="https://gmedia.playstation.com/is/image/SIEPDC/double11-202010-tw-psvr?$1200px$" alt="">
+                    <h1 class="expl-ps4-img-h1text">PlayStation VR</h1>
+                    <p class="expl-ps4-img-content">Over 500 games and experiences add 
+                    counting See them all.</p>
+                    <button class="btn btn-primary" style="border-radius:24px;">Learn more</button>
+                  </div>
+                </div>
+                <div class="col expl-ps-4-columns">
+                  <div class="expl-ps-4-imgs-text">
+                    <img class="expl-ps-4-img" src="https://gmedia.playstation.com/is/image/SIEPDC/dualshock-4-listing-thumb-01-ps4-en-12oct20?$1200px$" alt="">
+                    <h1 class="expl-ps4-img-h1text">Accessories</h1>
+                    <p class="expl-ps4-img-content">Enhance Your PS4 experience with a range of official 
+                    accessories</p>
+                    <button class="btn btn-primary" style="border-radius:24px;">Learn more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+              <div class="playstation-store">
+                <div class="playstation-store-text">
+                    <div class="ps-icon-text">
+                    
+                        <img class="playstation-store-icon" style="display:flex" src="https://1734811051.rsc.cdn77.org/data/images/full/375124/playstation-store.png" alt="">
+                        <h5 class="icon-text" style="display:flex">PlayStation.Store</h5>
+                    
+                    </div>
+                  
+                    <h4 class="ps-h4-style">New savings on PlayStation <br> Store</h4>
+                    <p class="ps-p-style">Explore the latest discounts and seasonal sales on great games and add-ons for PS5 and PS4.</p>
+                    <button class="bnt-info">See all deals</button>
+                  
+                  </div>
+                  <div class="playstation-store-cever">
+                    <img class="playstation-store-img" src="https://gmedia.playstation.com/is/image/SIEPDC/nov-savings-image-block-01-25oct22$en-gb?$1600px$" alt="">
+                  </div>
+              </div>
+        
         <div class="footer">
-            <p class="footer-text">Follow us on social media</p>
-            <div class="col-12">
+            <p class="row footer-text">Follow us on social media</p>
+            <div class="col-12 col-12-img-icons">
             <img class="footer-img" src="https://gmedia.playstation.com/is/image/SIEPDC/twitter-monochrome-icon-01-en-13may21?$1600px--t$" alt="">
             <img class="footer-img" src="https://gmedia.playstation.com/is/image/SIEPDC/facebook-monochrome-icon-01-en-13may21?$1600px--t$" alt="">
             <img class="footer-img" src="https://gmedia.playstation.com/is/image/SIEPDC/instagram-monochrome-icon-01-en-13may21?$1600px--t$" alt="">
@@ -288,10 +374,12 @@ integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbs
                   <img class="last-img"  src="https://www.playstation.com/etc.clientlibs/global_pdc/clientlibs/clientlib-base/resources/ps-bug.svg" alt="">
                   <br>
                   <span class="icon-and-text">
+                    <span>
                     <svg class="globe-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
                       <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
                     </svg>
-                    <span>Country/region: India</span>
+                  </span>
+                    <span><p> Country/region: India <p></span>
                   </span>
                   
                 </div>

@@ -17,3 +17,5 @@ function printprimes(num){
 
 }
 printprimes(100);
+
+

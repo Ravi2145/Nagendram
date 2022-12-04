@@ -1,0 +1,749 @@
+.top-header{
+    height: 38px;
+    background-color: black;
+    display: flex;
+    width: 100%;
+    justify-content:end;
+    
+}
+.companyName{
+   padding-right: 7px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+   display: flex;
+   margin-top:5px;
+}
+.img-icon{
+    margin-left: 5px;
+    height: 40px;
+    background-color: white;
+    color: blue;
+}
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+.btn-nav{
+    border-radius: 40px;
+    height: 30px;
+    border: 1px solid lightgray;
+    display: flex;
+    background-color: blue;
+    color: white;
+    margin-right: 5px;
+    padding: 0px;
+    width: 60px;
+   justify-content: center;
+   align-items: center;
+   margin-right: 30px;
+}
+.btn-text{
+    font-size: small;
+    
+}
+svg{
+    margin-right: 30px;
+}
+.img-icons{
+    
+    height: 18px;
+    
+}
+.background-cover{
+background-position: center;
+
+/* background-size: cover; */
+/* display: flex; */
+width: 100%;
+}
+
+.images{
+    margin-left:10px;
+   justify-content: center;
+   margin-bottom: 100px;
+   padding-left:20px;
+   display:flex;
+   width: 100%;
+   --border-color: #0072ce;
+    --shadow-color: #464141;
+
+   
+
+}
+.img-covers{
+
+    /* top left bottom right */
+    margin-top: 5px;
+    border-radius: 20px;
+    height: 100px;
+    width: 180px;
+    margin-right: 9px;
+    display: block;
+    /* width: 100%; */
+    object-fit: cover;
+    transition: all .2s ease-in-out,height 0s;
+    cursor: pointer;
+    background-color: #4e4e4e;
+    /* box-shadow: #4e4e4e; */
+    
+
+}
+.img-covers:hover{
+    margin-top: -0.2px;
+    box-shadow: 2px 3px #696565;
+    opacity: 0.5px;
+}
+.img-covers:focus{
+    
+}
+.card{
+    border: none;
+    border-color: white;
+    display: flex;
+}
+.playstation5{
+    display: flex;
+   
+   width: 100%;
+
+}
+
+.card-text{
+   
+}
+
+.text-content{
+ 
+   margin-left: 200px;
+  
+   
+
+}
+.text{
+    display: flex;
+    
+    margin-left: 200px;
+    line-height: 39px;
+    /* font-size: 30px; */
+}
+.small-text{
+    display: flex;
+   
+    margin-top: 34px;
+    margin-left: 200px;
+    font-size: 20px;
+    line-height:29px;
+    color: gray;
+    align-items: center;
+}
+.btn-learn{
+    margin-top: 34px;
+    background-color: blue;
+    color: white;
+    font-size: bold;
+    margin-left: 200px;
+    border: none;
+    border-radius: 14px;
+    height: 32px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.img-remote{
+ 
+   
+   height: 100%; 
+    width: 100%;
+   /* margin-right: 200px; */
+    object-position: center;
+    display: flex;
+    
+}
+.col-images-text{
+    
+    display: flex;
+    justify-content: center;
+    column-gap: 14px;
+   padding-left:10px;
+  align-items: center;
+    flex-direction: column;
+}
+.card-with-text{
+    margin: 89px 210px 0 200px;
+    /* margin-top: 89px;
+    margin-left: 200px;
+    margin-right: 200px; */
+
+    cursor: pointer;
+}
+.image{
+    height: 51px;
+    width: 82px;
+    margin:0px;
+    display:block;
+    justify-content: center;
+    align-content: center;
+    object-fit: contain;
+    transition: all .2s ease-in-out,height 0s;
+   
+}
+.image:hover{
+    opacity:fill;
+    
+}
+image:active{
+    opacity:fill;
+}
+
+.img-text{
+    
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+   /* line-break: 3.5px; */
+   margin-bottom: 99px;
+   
+
+ 
+}
+
+
+
+.footer{
+  margin-top: 50px;
+    height: 399px;
+    width: 100%;
+    display: block;
+    
+    background-color: rgb(231, 231, 231);
+    
+}
+.footer-text{
+    padding-top:48px;
+    font-size: 28px;
+    text-align: center;
+    
+    
+}
+.footer-img{
+  height: 120px;
+  width: 120px;  
+margin-top: 47px;
+
+   
+}
+.col-12-img-icons{
+    align-items: center;
+    justify-content: center;
+    margin-left: 399px;
+
+}
+.col-3{
+    display: flex;
+}
+.footer-text{
+    height: 136px;
+    width: 100%;
+   
+}
+.foot-text{
+    height: 69px;
+    font-size: large;
+
+}
+.last-footer{
+    /* margin-left: 200px;
+    margin-right: 200px; */
+    height:580px;
+    width: 100%;
+    background-color: rgb(25, 25, 150);
+    color: white;
+    /* line-height:4.5; */
+    bottom: 0;
+
+}
+.row{
+    margin-top: 50px;
+}
+.last-footer-img{
+    margin: 60px 0 0 200px;
+    height: 100%;
+    max-width: 60px;
+    position: absolute;
+    /* -o-object-fit: contain; */
+    object-fit: contain;
+    max-height: 40px;
+
+
+}
+.last-img{
+    
+    height:auto;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.globe-icon{
+   height:32px;
+   margin-right:8px;
+   /* display: flex; */
+
+}
+.icon-and-text{
+    margin-top: 40px;
+   
+}
+.col-2{
+    margin-left: 14px;
+    line-height: 1.0;
+    margin-top: 60px;
+    font-size: small;
+}
+.img-sony{
+    height:70px;
+    width: 140px;
+    /* margin-left: 200px; */
+    margin-bottom: 0px;
+    padding: 0px;
+    
+}
+.sony-img-p{
+    margin-left: 200px;
+    line-height: 1.5;
+}
+.sony-img-text{
+    /* margin-left: 200px; */
+    height: 120px;
+    width: 431px;
+    margin-top:0px;
+    padding: 0px;
+    
+    
+}
+.ps-explore{
+    background-color: rgb(243, 201, 124);
+    height: 450px;
+    width: 100%;
+    max-height: 450px;
+    background-image: url();
+    
+}
+.row{
+    margin-top: 45px;
+    margin-left: 200px;
+    justify-content: center;
+    display: flex;
+}
+
+
+.img-explore{
+    margin-top: 78px;
+    margin-bottom: 20px;
+    height:50px;
+    width: 200px;
+}
+.img-explore1{
+    margin-top: 59px;
+    height: 298px;
+    width: 343px;
+   align-items: center;
+    justify-content: center;
+   object-position: center;
+    
+}
+.explore-text{
+    height: 100px;
+    width: 310px;
+    line-height: 1.8;
+    margin-left: 200px;
+    
+    
+}
+.explore-button{
+    background-color: rgb(17, 17, 223);
+    color: white;
+   height: 36px;
+   width: 207px;
+    border-radius: 23px;
+    border: none;
+    margin-top: 10px;
+   text-align: center;
+    margin-left: 200px;
+    padding: 0;
+}
+.center1{
+    display: flex;
+    object-position: center;
+    justify-content: center;
+
+}
+.explore-text-img{
+    /* width: 110px; */
+    margin-left: 200px;
+
+}
+.monthly-new-releases{
+    height: 640px;
+    /* max-width: 100%; */
+    background-color:rgb(115, 6, 187);
+    padding-top: 45px;
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/this-month-on-playstation-nov-homepage-background-desktop-01-en-18oct22?$2400px$);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}   
+.content-of-monthly-release{
+    
+    color: white;
+    
+}
+
+    /* background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/god-of-war-raganok-clean-keyart-01-en-10mar22?$2400px$);
+    */
+.content-of-monthly-release{
+    margin-top: 59px;
+    /* column-gap: 10px; */
+}
+
+.monthly-release-img-text{
+    
+}
+.monthly-release{
+    margin-top: 59pxpx;
+    
+    margin-left: 219px;
+   margin-top: 59px;
+    margin-right: 150px;
+}
+
+.new-release-covers{
+    display: flex;
+   
+   
+}
+.content-of-new-release{
+    /* margin-top: 78px; */
+    margin-left: 160px;
+    /* margin-top: 78px; */
+    padding-top: 79px;
+    color: white;
+    
+}
+.this-month{
+   font-weight: lighter;
+   /* margin-bottom: 60px; */
+   /* margin-top: 50px; */
+   
+}
+.font-size{
+    font-size: larger;
+    width: 341px;
+    line-height: 1.9;
+    margin-top: 29px;
+    color: #C7C7C7;
+}
+.button-findmore{
+    /* border:none; */
+    border-radius: 18px;
+    object-fit: cover;
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* background-color: #C7C7C7; */
+    /* color: rgb(12, 11, 11); */
+    border: 1px solid white;
+   object-position:12%;
+}
+.new-img-text{
+    font-size:36px;
+    padding-bottom: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+/* .release-cover-imgs{
+    height: 223px;
+    width: 256px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction:column-reverse;
+    margin-left:47px;
+    
+} */
+.release-cover-imgs-style{
+    margin-top: 57px;
+    height: 151px;
+    width: 273px;
+    display: block;
+    border-radius: 14px;
+    box-shadow: 24px;
+    outline: none;
+          object-position: center;
+          transition: all .2s ease-in-out,height 0s;
+    /* object-fit: cover; */
+    object-position: top-right;
+    cursor: pointer;
+    column-gap: 5px;
+    margin-right: 20px;
+    padding: 0px;
+    
+}
+.release-cover-imgs-style:hover{
+    -ms-transform: scale(1.012);
+    transform: scale(1.012);
+box-shadow: 2px 3px 3px 2px #221f1f;
+
+}
+.new-img-text{
+    color: rgb(5, 4, 4);
+    font-size:18px;
+    padding-top: 70px;
+ 
+}
+.new-release-covers{
+    display: flex;
+    margin-top:39px;
+    margin-left: 200px;
+}
+.playstation-store{
+    height:540px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-right:269px;
+    align-items: center;
+    
+}
+.playstation-store-text{
+    height: 130px;
+    width: 50%;
+    margin-left: 198px;
+    line-height: 1.6;
+   justify-content: center;
+   margin-bottom: 234px;
+
+}
+.playstation-store-cever{
+    margin-left:0px;
+}
+.ps-h4-style{
+    line-height: 1.3;
+    font-weight: lighter;
+    font-size: xx-large;
+    font-style: normal;
+    color: black;
+    margin-bottom: 18px;
+}
+.ps-p-style{
+    color: gray;
+    font-size:15px;
+}
+.playstation-store-icon{
+    height:65px;
+    width:105px;
+   margin-top: 14px;
+  
+ 
+   padding-right: 24px;
+}
+.icon-text{
+    height:50px;
+    width:50px;;
+    font-weight: bold;
+    font-size:24px;
+    margin:0;
+    margin-top: 30px;
+    margin-left:0px;
+    padding-right: 15px;
+}
+.ps-icon-with-text{
+    display: flex;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+.ps-icon-text{
+    margin-right:px;
+    display: flex;
+
+
+}
+
+.bnt-info{
+    border: none;
+    border-radius: 24px;
+    background-color: rgb(228, 90, 39);
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    margin-top: 19px;
+    padding: var(--space-4) var(--space-5);
+    height: 32px;
+    width: 106px;
+    position: relative;
+    justify-content: center; 
+    border: 3px solid rgb(228, 90, 39);
+    
+    
+    /* outline-style:2px solid rgb(228, 90, 39) ; */
+}
+.bnt-info:hover{
+    border-color:rgb(228, 90, 39) ;
+    transition: border 0.2s ease-in-out;
+}
+.playstation-store-img{
+    height: 328px;
+    width: 599px;
+    margin-right: 251px;
+   border-radius: 12px;
+   margin-left: 54px;
+   cursor: pointer;
+   /* -webkit-transition: all .2s ease-in-out; */
+          /* transition: all .2s ease-in-out; */
+          outline: none;
+          object-position: center;
+          transition: all .2s ease-in-out,height 0s;
+}
+
+.playstation-store-img:hover{
+    /* -webkit-transform: scale(1.012); */
+    -ms-transform: scale(1.012);
+        transform: scale(1.012);
+    box-shadow: 2px 3px 3px 2px #C7C7C7;
+
+}
+.playstation-store:focus{
+    outline-offset: 0.125rem;
+    box-shadow: none!important;
+}
+.expl-ps-4{
+    height: 411px;
+    width: 100%;
+    justify-content: center;
+    color: black;
+
+}
+.expl-ps4-content{
+    margin-top: 140px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.expl-ps4-content-h1text{
+    font-weight: lighter;
+}
+.expl-ps4-content-ptext{
+    font-size: 20px;
+    color: rgb(71, 68, 68);
+    justify-content: center;
+   
+    text-align: center;
+    
+}
+.expl-ps-4-img{
+    height: 139px;
+    width: 246px;
+}
+.expl-ps-4-row{
+    /* margin-left:157px; */
+    display:flex;
+    padding-left: 269px;
+    /* margin-top: 120px; */
+    padding-right: 269px;
+    
+}
+.expl-ps-4-columns{
+    align-items: center;
+    /* margin-top:110px;  */
+}
+.expl-ps-4-imgs-text{
+    margin-top: 78px;
+   
+   column-gap: 5px;
+}
+.expl-ps-4-img{
+    /* margin-top: ; */
+}
+.expl-ps4-img-h1text{
+    font-weight:lighter;
+}
+.expl-ps4-img-content{
+    font-size: 21px;
+    color: #4e4e4e;
+    font-weight:7px;
+}
+/* .available-games-in-ps{
+    height: 589px;
+    width: 100%;
+    
+    /* background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/the-last-of-us-part-i-hero-banner-desktop-01-ps5-en-11aug22?$1200px$); */
+    /* object-position: center; */
+   /* position: absolute;
+   -o-object-position:fit-content;
+} */ */
+.available-games-text{
+    margin: 69px;
+}
+.available-games-h1-tag{
+    color: white;
+    font-size:54px;
+    letter-spacing: 0.2px;
+    word-spacing: 0.5px;
+}
+.available-games-h6-tag{
+    font-size: 31px;
+    color: white;
+}
+.available-games-p-tag{
+    color: white;
+    font-size: large;
+    margin-top:  24px;
+    margin-bottom: 28px;
+}.available-games-button{
+    border-radius: 21px;
+    background-color: rgb(233, 78, 21);
+    color: white;
+    border: none;
+   
+    font-weight: bold;
+    height: 32px;
+    width: fit-content;
+    text-align: center;
+    justify-content:center;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+/* * { box-sizing: border-box; } */
+/* .seeimg{
+    max-height: 500px;
+    overflow: hidden;
+    /* background-repeat: repeat; */
+/* } */ 
+.carousel-container{
+    margin-bottom: 39px;
+}
+
+.carousel-cover{
+    max-height: 540px;
+    overflow: hidden;
+}
+.carousel-img{
+    z-index: -1;
+}
+body{
+    margin:0;
+    width: 100%;
+   
+}
+@media screen and (max-width:760px){
+    .top-header{
+        height: 38px;
+        background-color: black;
+        display: flex;
+        width: 100%;
+        justify-content:end;
+        
+    }
+}

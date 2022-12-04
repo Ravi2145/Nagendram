@@ -89,3 +89,10 @@
 
 
 //7.does the following statements result ina an error? SELECT dept-name,dept-ID ,avg(salary)FROM Employee GROUP  BY dept-name
+
+
+// #define MAX 10
+// struct Stack {
+//     int arr[MAX]
+//     int top=-----;
+// }

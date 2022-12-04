@@ -26,9 +26,9 @@ console.log(twoSum(num,17));
 
 function twosum(nums,target){
     for(let i=0;i<nums.length;i++){
-        console.log(nums[i]);
+        // console.log(nums[i]);
         for(let j=0;j<nums.length;j++){
-            console.log(nums[j]);
+            // console.log(nums[j]);
             if(i==j){
                 continue;
             }
@@ -43,6 +43,6 @@ function twosum(nums,target){
 }
 //let nums = [2,7,5,11,10];
 console.log(twosum([2,7,5,11,10],12));
-console.log(twosum([2,7,5,11,10],7));
+// console.log(twosum([2,7,5,11,10],7));
 
 

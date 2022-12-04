@@ -7,3 +7,10 @@ Git & Github.
 
 //Download and install Git.
 //register github 
+
+
+git init : initialize git repo
+git add .: stage/track all files or changes
+git commit -m "commit message": commit your project/codebase (timestamp)
+git push origin master: push the code to cloud/remote repo 
+git status: check the status of your files/git repo

@@ -1,0 +1,49 @@
+1.What is React And Why React ? => Done
+    =>This is for Convinience
+2.Main Features of React.
+    =>Component-based web development
+        ->Set of HTML/CSS/JS which can be reused.or
+        ->Part of body 
+        ->it can be entair page or 
+        it can be small part of web page which can be 
+        represents the user interface. 
+    =>JSX.[JavaScrpt+HTML] =>JS Extension.
+        ->it combines javascrit and HTML together
+    =>virtual DOM.=>it prevents where delevoper
+         made changes react translate changes 
+         in high optimized code to update the actula DOM with 
+         minimum operations
+       ->it helps with optimization
+       ->dom is the tree which represents the 
+        which represents the entir page in tree structure.
+       ->virtual dom is a copy of dom where you(developer) can
+        made changes in dom that will be virtual dom.
+        it refreshes the where u(developer) can change
+       ->
+    =>SPA. [Single Page Application] 
+        ->Facebook,Entire Facebook or Instagram Application
+        that can made single html page.
+3.How to create a project.
+4.How to run project.
+5.Folders and file structures.
+6.Components.
+7.JSX.
+8.virtual DOM.
+9.Lifecycle hooks.
+10.States.
+11.props.
+12.Event handling.
+13.Data Passing.
+14.evet passing.
+
+
+
+
+
+Dheeraj Kumar
+
+npx create-react-app e-commerce
+
+Ashutosh Sasmal
+
+use npm create vite@latest  it is much faster
