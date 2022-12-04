@@ -385,7 +385,7 @@ margin-top: 47px;
 
 }
 .monthly-new-releases{
-    height: 640px;
+    height: 690px;
     /* max-width: 100%; */
     background-color:rgb(115, 6, 187);
     padding-top: 45px;
@@ -447,13 +447,14 @@ margin-top: 47px;
 .button-findmore{
     /* border:none; */
     border-radius: 18px;
-    object-fit: cover;
+    
     /* justify-content: center; */
     /* text-align: center; */
     /* background-color: #C7C7C7; */
     /* color: rgb(12, 11, 11); */
     border: 1px solid white;
-   object-position:12%;
+  
+   width: 20%;
 }
 .new-img-text{
     font-size:36px;
@@ -471,7 +472,7 @@ margin-top: 47px;
     
 } */
 .release-cover-imgs-style{
-    margin-top: 57px;
+    margin-top: 0px;
     height: 151px;
     width: 273px;
     display: block;
@@ -495,8 +496,8 @@ box-shadow: 2px 3px 3px 2px #221f1f;
 
 }
 .new-img-text{
-    color: rgb(5, 4, 4);
-    font-size:18px;
+    color: rgb(236, 230, 230);
+    font-size:22px;
     padding-top: 70px;
  
 }
