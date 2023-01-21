@@ -1,0 +1,236 @@
+
+1.
+In JavaScript, which of the following are the limitations to the freeze that is applied to an object for alteration restriction?
+Options
+
+Freeze does not apply to nested values
+
+Freeze does apply to nested values too
+
+Freeze makes the object unserializable
+
+All of the options
+
+
+2.
+Which of the following deadlock condition can be denied by imposing a total ordering
+on all the resource types and then forcing all processes to request the resources in 
+increasing or decreasing order??
+Options
+
+Hold and wait condition
+
+Circular wait condition//ans
+
+Mutual exclusion condition
+
+None of these
+
+
+
+3.
+Consider a baud rate signal is 400 baud/sec. If each signal unit carries 8 bits, 
+then determine the bit rate of the signal.
+Options
+
+3600
+
+200
+
+3200//ans
+
+1400
+
+
+
+4.
+Predict the protocol in which the send window can slide one or more slots when a valid acknowledgement arrives?
+Options
+
+Subnet window protocol
+
+Sliding window protocol//ans
+
+Transmission control protocol
+
+Send window protocol
+
+
+5.
+What will happen when the GROUP BY clause is not used, and HAVING is?
+
+Options
+
+Nothing will happen
+
+
+SQL server will restart.
+
+
+It acts like a WHERE clause//ans
+
+It acts like a LIKE clause
+
+
+
+6.
+In a 'for loop' if the condition is missing, then infinite looping can be avoided by a.
+
+Options
+
+Continue statement//ans
+
+goto statement
+
+return statement
+
+Both (ii) and (iii)
+
+
+
+7.does the following statements result ina an error? SELECT dept-name,dept-ID ,avg(salary)FROM Employee GROUP  BY dept-name
+
+
+#define MAX 10
+struct Stack {
+    int arr[MAX]
+    int top=-----;
+}
+
+
+8. int main()
+{
+    int i,j,count
+    count = 0;
+    i=0;
+    for(j=-4;j<=4;j++)
+    {
+        if((j>=0) && (i++))
+        count = count+j
+    }
+    count = count+i
+    print(count)
+   
+}
+ans:(B) The program will compile successfully 
+and output 10 when executed
+
+
+9. third = first+second
+character output<<""<<third
+first = second
+second = third
+}
+return 0;
+}
+options:
+0112358          123456
+0122338          0123558
+
+
+10. In relation to the given table, what does
+the following query print:SELECT*from student LEFT OUTER
+JOIN Student_Address on (Student.StudentID = Student_Address.StudentID);
+
+
+11. 
+int main(){
+    int j=0
+    for(;j<10;)
+    {
+        if(j<10)
+        1print("Exam",j++)
+        else
+        Continue
+        print("Quiz")
+    }
+    return 0
+}
+
+
+12. 
+what will be the result of evaluating the postfix expression
+5,2,8,+,*,6,12,3,/,+,* is?
+
+
+13.which of the following disk-scheduling algorithms can be considered
+as the default algorithm,given ther advantages are bearable compared to all 
+other algorithms?
+
+
+14. Suppose you apply a breadth-first search on a data structure,
+and you find it has a unique breadth-first search order,which data structure
+could it possibly be
+
+
+15.Suppose we have numbers between  1 and 1000 in a binary search tree and whant 
+to search for the number 363. which of the following sequence could not be the 
+sequence of the node examined?
+
+16. Consider the statement int[][][] my3Darray = new int[10][20][3]
+    the above array can store a total of
+
+17. the Direct Memory Accessmode(DMA) mode can be subdevided into multiple modes for performing 
+I/O tasks/operations.which of the following is not a DMA mode?
+
+18.what happens when browser invokes a handler?
+
+
+19. which among the following is not a service provided by I/Osubsystems?
+
+20. In non-preemptive scheduling algorithm ___________ startegy assigns priority to processes in the 
+    order In which they request the processor.
+
+21. which of the following statements are correct corresponding control structure:
+
+
+22. If in-order and post-order traversal of a binary tree are 1,2,3,4,5 and 1,3,5,2,4 then pre-order traversal would be?
+
+
+23. which of the following statement result in an error? SELECT dept_name, dept_ID avg(salary)FROM 
+EmployeeGroup By dept_name
+
+
+24. which of the below statement is correct about the hard-disks in modern operating systems?
+
+25. State weather the statements are true or false?
+    (i) we can select a specific columns by making a list of column names
+    (ii) allowing nulls means a cell can be left empty
+
+26. which of the following methods could be used to attach with the object
+and returns attached methods could be invoked anytime in future.
+
+
+27. const {car:myCar} = {car:Ford}
+console.log(car)
+
+28. what is thenumber edges in a complete graph of n vertices?
+
+29. int a = 456,b,c,d=10
+    b=a/d;
+    c= a-b;
+    print c;
+
+30.choose the incorrect statement with respect to relational poerators
+
+
+31.consider a baud rate signal is 400 baud/sec if each signal unit carries  8 bits
+    then determine the bit rate of the signal.
+
+32. In , a for loop if the condition is missing then , infinet looping can be avoided by a ?
+
+
+33. while inserting the elements 85,67,75,60,58,72 in an empty binary search tree ,find the element int he lowest level
+
+
+34. predict the protocol in which the send window can slide one or more slots when a valid acknowledgement arrives?
+
+
+35. what will happen when the GROUP BY clause is not used,and haveing is?
+
+
+36.Consider the following postorder and inorder traversalas of binary tree.
+post order:1,2,5,4,7,6,3,9,11,10,8
+In order : 1,2,3,4,5,6,7,8,9,10,11
+find the total number of nodes that have height greater than the height of node 6
+Assume root is at lowest height. 
