@@ -25,3 +25,9 @@ let moseZeros = (nums)=>{
 }
 let nums = [1,0,3,0,12]
 console.log(moseZeros(nums))
+
+
+
+
+
+
